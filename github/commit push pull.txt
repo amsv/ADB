@@ -17,3 +17,17 @@ ____________________________________
 git pull origin main
 
 
+примечание
+
+https://blog.progwards.ru/git-i-gitbash/
+для связки удаленного и локального репозитория
+git remote add origin https://github.com/[логин гита]/[название репозитория].git
+
+если запутаешься с удаленными связями то можно удалить 
+git remote rm origin
+
+потом сново 
+git remote add origin https://github.com/[логин гита]/[название репозитория].git
+
+
+
