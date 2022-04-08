@@ -1,0 +1,30 @@
+
+
+git config --global user.name "имя"
+
+git config --global user.mail "почта"
+
+mkdir .ssh
+
+
+ssh-keygen -t rsa -b 4096 -C "ammosovaleksey@yandex.ru"
+
+
+проверяем агента(надо в git bash) 
+
+eval "$(ssh-agent -s)"
+
+добовляем ключи id_rsa
+ssh-add ~/.ssh/id_rsa
+
+копируем в буфер винды содержание ключа
+clip < id_rsa.pub
+
+
+в настройках github SSH keys > New SSH key > 
+
+title:любое название
+key:из буфера ключь
+
+> Add SSh key
+
