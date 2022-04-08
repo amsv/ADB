@@ -9,8 +9,8 @@ git commit –m <text>
 
 
 загружаем все на удаленный репозиторий. Приписка —set-upstream origin master – связывает нашу локальную ветку master с одноименной удаленной
-git push —set-upstream origin master 
+git push origin main 
 
-bkb ytgn
+kjhkj
 
 
