@@ -7,7 +7,7 @@ git config --global user.mail "почта"
 mkdir .ssh
 
 
-ssh-keygen -t rsa -b 4096 -C "ammosovaleksey@yandex.ru"
+ssh-keygen -t rsa -b 4096 -C "почта"
 
 
 проверяем агента(надо в git bash) 
